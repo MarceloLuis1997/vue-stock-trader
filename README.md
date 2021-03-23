@@ -5,6 +5,12 @@
 npm install
 ```
 
+### Configure you Firebase URL
+```
+// go to /src/plugins/axios.js and change the line:
+baseURL: 'https://project-name-xxxxx-default-rtdb.firebaseio.com/'
+```
+
 ### Compiles and hot-reloads for development
 ```
 npm run serve
